@@ -1,0 +1,6 @@
+Instrucciones de Instalacion
+
+1. Debe instalarse el servidor de base de datos Microsoft SQL Server
+2. Debe ejecutarse el script de la base de datos que se adjunta con el proyecto
+3. Debe ejecutarse el instalador del sistema.
+4. Una vez instalado se puede ejecutar la aplicacion.

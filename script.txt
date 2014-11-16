@@ -1,0 +1,66 @@
+create table Usuario(
+	idusuario int not null identity(1,1) primary key,
+	nombre varchar(50) not null,
+	pass varchar(50) not null,
+	email varchar(50)not null
+	)
+
+GO
+
+insert into Usuario(nombre,pass,email)
+values('admin','admin','micaelaromero1993@gmail.com')
+
+GO
+
+create table Zona(
+	idzona int not null identity(1,1) primary key,
+	descripcion varchar(50) not null,
+	porcentaje decimal(10,2) not null
+	)
+
+GO
+
+insert into Zona(descripcion,porcentaje)
+values('A',0.74)
+insert into Zona(descripcion,porcentaje)
+values('B',0.21)
+insert into Zona(descripcion,porcentaje)
+values('C',0.05)
+
+create table Producto(
+	idproducto int not null identity(1,1) primary key,
+	codigo int not null,
+	descripcion varchar(50) not null,
+	stock int not null,
+	precio decimal(10,2) not null,
+	demandapromediodiaria decimal(10,2) not null,
+	zona_id int null references Zona(idzona)
+	)
+
+GO
+
+create table DemandaMensual(
+	iddemanda int not null identity(1,1),
+	fechadesde datetime not null,
+	fechahasta datetime not null,
+	valor int not null,
+	producto_id int references Producto(idproducto)
+	)
+
+GO
+
+create table Saldo(
+	idsaldo int not null identity(1,1),
+	fechadesde datetime not null,
+	fechahasta datetime not null,
+	valor int not null,
+	producto_id int references Producto(idproducto)
+	)
+
+create table Valorizaciones(
+	idvalorizacion int not null identity(1,1),
+	valor decimal(10,2) not null,
+	porcentaje decimal(10,2) not null,
+	fechavalorizacion datetime not null,
+	producto_id int not null references Producto(idproducto)
+)
