@@ -37,18 +37,18 @@
             this.saldoDeInventarioDelBuqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inventarioDeLosProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listadoDeCantidadesAOrdenarseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Status = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblUsuario = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.listadoDeCantidadesAOrdenarseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu.SuspendLayout();
             this.Status.SuspendLayout();
             this.SuspendLayout();
             // 
             // menu
             // 
-            this.menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.menu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.administraccionDToolStripMenuItem,
@@ -138,9 +138,18 @@
             this.inventarioDeLosProductosToolStripMenuItem.Text = "Inventario de los Productos";
             this.inventarioDeLosProductosToolStripMenuItem.Click += new System.EventHandler(this.inventarioDeLosProductosToolStripMenuItem_Click);
             // 
+            // listadoDeCantidadesAOrdenarseToolStripMenuItem
+            // 
+            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.Name = "listadoDeCantidadesAOrdenarseToolStripMenuItem";
+            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
+            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.Text = "Listado de Productos";
+            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.Click += new System.EventHandler(this.listadoDeCantidadesAOrdenarseToolStripMenuItem_Click);
+            // 
             // Status
             // 
-            this.Status.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Status.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.Status.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Status.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
@@ -157,6 +166,7 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.ActiveLinkColor = System.Drawing.Color.Red;
+            this.toolStripStatusLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(60, 17);
@@ -171,26 +181,17 @@
             // 
             // toolStripStatusLabel2
             // 
+            this.toolStripStatusLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.toolStripStatusLabel2.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
             this.toolStripStatusLabel2.Size = new System.Drawing.Size(427, 17);
             this.toolStripStatusLabel2.Spring = true;
             this.toolStripStatusLabel2.Text = "Dirección de Abastecimiento de Viveres";
             // 
-            // listadoDeCantidadesAOrdenarseToolStripMenuItem
-            // 
-            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.Name = "listadoDeCantidadesAOrdenarseToolStripMenuItem";
-            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
-            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.Text = "Listado de Productos";
-            this.listadoDeCantidadesAOrdenarseToolStripMenuItem.Click += new System.EventHandler(this.listadoDeCantidadesAOrdenarseToolStripMenuItem_Click);
-            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::TPEspecial2013.Properties.Resources.Buque;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(599, 472);
             this.Controls.Add(this.Status);

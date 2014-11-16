@@ -31,12 +31,12 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnVer = new System.Windows.Forms.Button();
             this.codigoBarraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descripcionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.stockDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.precioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.productoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.btnVer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productoBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -74,21 +74,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(847, 348);
             this.dataGridView1.TabIndex = 1;
             // 
-            // btnVer
-            // 
-            this.btnVer.BackColor = System.Drawing.Color.Crimson;
-            this.btnVer.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnVer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVer.ForeColor = System.Drawing.Color.White;
-            this.btnVer.Location = new System.Drawing.Point(361, 422);
-            this.btnVer.Name = "btnVer";
-            this.btnVer.Size = new System.Drawing.Size(169, 48);
-            this.btnVer.TabIndex = 11;
-            this.btnVer.Text = "Ver Informacion";
-            this.btnVer.UseVisualStyleBackColor = false;
-            this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
-            // 
             // codigoBarraDataGridViewTextBoxColumn
             // 
             this.codigoBarraDataGridViewTextBoxColumn.DataPropertyName = "CodigoBarra";
@@ -125,11 +110,26 @@
             // 
             this.productoBindingSource.DataSource = typeof(Modelo.Producto);
             // 
+            // btnVer
+            // 
+            this.btnVer.BackColor = System.Drawing.Color.Crimson;
+            this.btnVer.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnVer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVer.ForeColor = System.Drawing.Color.White;
+            this.btnVer.Location = new System.Drawing.Point(361, 422);
+            this.btnVer.Name = "btnVer";
+            this.btnVer.Size = new System.Drawing.Size(169, 48);
+            this.btnVer.TabIndex = 11;
+            this.btnVer.Text = "Ver Informacion";
+            this.btnVer.UseVisualStyleBackColor = false;
+            this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
+            // 
             // VerInventarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(908, 495);
             this.Controls.Add(this.btnVer);
             this.Controls.Add(this.dataGridView1);
