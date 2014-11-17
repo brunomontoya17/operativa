@@ -23,6 +23,7 @@ namespace TPEspecial2013
         ControlProductos controller = new ControlProductos();
         const string SALTO = "\n";
         const string COMA = ", ";
+        string Descripcion;
 
         private void PrintCommand()
         {
@@ -79,7 +80,7 @@ namespace TPEspecial2013
             {
                 List<Zona> Lista = controller.ListarZonas();
 
-                string Descripcion = string.Empty;
+                Descripcion = string.Empty;
 
                 Descripcion += "\t\t Sistema del Minimercado";
 
@@ -140,6 +141,7 @@ namespace TPEspecial2013
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                richTextBox1.Text = Descripcion;
             }
         }
 

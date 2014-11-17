@@ -7,8 +7,8 @@ namespace Modelo
 {
     public class ModeloCantFija:ModeloBase
     {
-        decimal CostoColocacacionPedido=3;
-        decimal CostoAnualMantenimientoyAlmacenamientoporUnidad=1;
+        decimal CostoColocacacionPedido=3m;
+        decimal CostoAnualMantenimientoyAlmacenamientoporUnidad=1m;
         int cantidaddiasanuales=365;
 
         public ModeloCantFija() 

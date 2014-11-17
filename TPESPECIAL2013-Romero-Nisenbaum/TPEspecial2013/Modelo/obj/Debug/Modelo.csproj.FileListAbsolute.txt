@@ -12,3 +12,8 @@ C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\TPESPECIAL2013-Romero-Nisenba
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\Modelo\obj\Debug\Modelo.dll
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\Modelo\obj\Debug\Modelo.pdb
+C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\Modelo\bin\Debug\Modelo.dll
+C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\Modelo\bin\Debug\Modelo.pdb
+C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\Modelo\obj\Debug\Modelo.dll
+C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\Modelo\obj\Debug\Modelo.pdb
