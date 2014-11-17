@@ -1,3 +1,9 @@
+create database invop
+go
+
+use invop
+go
+
 create table Usuario(
 	idusuario int not null identity(1,1) primary key,
 	nombre varchar(50) not null,
@@ -44,6 +50,7 @@ create table DemandaMensual(
 	fechadesde datetime not null,
 	fechahasta datetime not null,
 	valor int not null,
+	unidad varchar(50) not null,
 	producto_id int references Producto(idproducto)
 	)
 
@@ -54,6 +61,7 @@ create table Saldo(
 	fechadesde datetime not null,
 	fechahasta datetime not null,
 	valor int not null,
+	unidad varchar(50) not null,
 	producto_id int references Producto(idproducto)
 	)
 

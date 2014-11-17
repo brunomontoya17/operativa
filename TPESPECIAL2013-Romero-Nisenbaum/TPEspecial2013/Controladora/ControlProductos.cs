@@ -274,10 +274,11 @@ namespace Controladora
 
             foreach (Producto p in ListaProductos)
             {
+                //Esta linea
                 DemandaProductoMensual d = BuscarUltimaDemanda(p);
-
+                //y esta
                 SaldoInventario s = BuscarUltimaSaldoInventario(p);
-
+                //terminan siendo null, y por el eso el programa falla
                 int DemandaReal = (d.ValorDemanda - s.ValorInventario) * 12;
 
                 TotalValorizaciones += DemandaReal * p.Precio;

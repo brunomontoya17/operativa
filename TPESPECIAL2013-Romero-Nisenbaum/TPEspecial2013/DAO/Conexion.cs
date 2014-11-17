@@ -46,7 +46,7 @@ namespace DAO
 
                 dt.Load(reader);
             }
-            catch (Exception ex) { }
+            
 
             finally
             {
@@ -68,7 +68,7 @@ namespace DAO
                 cmd.ExecuteNonQuery();
 
             }
-            catch (Exception ex) { }
+            
 
             finally { desconectar(); }
         }

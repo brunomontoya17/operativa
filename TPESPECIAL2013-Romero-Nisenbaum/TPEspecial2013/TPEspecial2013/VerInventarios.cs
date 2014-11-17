@@ -62,7 +62,7 @@ namespace TPEspecial2013
 
                             string Descripcion = string.Empty;
 
-                            Descripcion += "\t\t Direccion de Abastecimiento de Viveres-Armada Argentina";
+                            Descripcion += "\t\t Sistema del Minimercado";
 
                             Descripcion += SALTO;
 
