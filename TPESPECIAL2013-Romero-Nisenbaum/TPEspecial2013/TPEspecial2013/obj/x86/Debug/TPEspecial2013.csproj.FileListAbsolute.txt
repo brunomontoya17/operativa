@@ -85,3 +85,5 @@ C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPESPECIAL2013-Rome
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\TPEspecial2013\obj\x86\Debug\TPEspecial2013.Properties.Resources.resources
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\TPEspecial2013\obj\x86\Debug\TPEspecial2013.VerInventarios.resources
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\TPEspecial2013\obj\x86\Debug\TPEspecial2013.csproj.GenerateResource.Cache
+C:\Users\Ezequiel\Documents\GitHub\operativa\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\TPEspecial2013\obj\x86\Debug\TPEspecial2013.exe
+C:\Users\Ezequiel\Documents\GitHub\operativa\TPESPECIAL2013-Romero-Nisenbaum\TPEspecial2013\TPEspecial2013\obj\x86\Debug\TPEspecial2013.pdb
