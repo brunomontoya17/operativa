@@ -50,186 +50,220 @@ namespace TPEspecial2013
             {
                 if (seguir)
                 {
+
+
                     Producto p = (Producto)dataGridView1.CurrentRow.DataBoundItem;
 
                     if (p != null)
                     {
                         Zona z = controller.BuscarZona_Producto(p);
-
-                        if (z.Descripcion == "A")
+                        if (z != null)
                         {
-                            ModeloCantFija cantfija = new ModeloCantFija();
+                            if (z.Descripcion == "A")
+                            {
+                                ModeloCantFija cantfija = new ModeloCantFija();
 
-                            string Descripcion = string.Empty;
+                                string Descripcion = string.Empty;
 
-                            Descripcion += "\t\t Sistema del Minimercado";
+                                Descripcion += "\t\t Sistema del Minimercado";
 
-                            Descripcion += SALTO;
+                                Descripcion += SALTO;
 
-                            Descripcion += "_________________________________________________________";
+                                Descripcion += "_________________________________________________________";
 
-                            Descripcion += SALTO;
+                                Descripcion += SALTO;
 
-                            Descripcion += "\t\t\t\t Informacion del Producto";
+                                Descripcion += "\t\t\t\t Informacion del Producto";
 
-                            Descripcion += SALTO;
+                                Descripcion += SALTO;
 
-                            Descripcion += "_________________________________________________________";
+                                Descripcion += "_________________________________________________________";
 
-                            Descripcion += SALTO;
+                                Descripcion += SALTO;
 
-                            Descripcion += "Datos del Producto";
+                                Descripcion += "Datos del Producto";
 
-                            Descripcion += SALTO + SALTO;
+                                Descripcion += SALTO + SALTO;
 
-                            Descripcion += "Codigo: " + p.CodigoBarra;
+                                Descripcion += "Codigo: " + p.CodigoBarra;
 
-                            Descripcion += SALTO;
+                                Descripcion += SALTO;
 
-                            Descripcion += "Descripcion: " + p.Descripcion;
+                                Descripcion += "Descripcion: " + p.Descripcion;
 
-                            Descripcion += SALTO;
+                                Descripcion += SALTO;
 
-                            Descripcion += "Stock: " + p.Stock + " unidades";
+                                Descripcion += "Stock: " + p.Stock + " unidades";
 
-                            Descripcion += SALTO;
+                                Descripcion += SALTO;
 
-                            Descripcion += "Precio: $" + p.Precio;
+                                Descripcion += "Precio: $" + p.Precio;
 
-                            Descripcion += SALTO + SALTO;
+                                Descripcion += SALTO + SALTO;
 
-                            Descripcion += "Informacion del Pedido:";
+                                Descripcion += "Informacion del Pedido:";
 
-                            Descripcion += SALTO + SALTO;
+                                Descripcion += SALTO + SALTO;
+                                if (p.DemandaPromedioDiaria > 0)
+                                {
+                                    Descripcion += "Punto de Reorden del Producto: " + cantfija.CalcularPuntoReorden(p.DemandaPromedioDiaria).ToString("F3", new System.Globalization.CultureInfo("es-AR")) + " unidades.";
 
-                            Descripcion += "Punto de Reorden del Producto: " + cantfija.CalcularPuntoReorden(p.DemandaPromedioDiaria).ToString("F3", new System.Globalization.CultureInfo("es-AR")) + " unidades.";
+                                    Descripcion += SALTO + SALTO;
 
-                            Descripcion += SALTO + SALTO;
 
-                            Descripcion += "Cantidad que debe ordenarse: " + cantfija.CalcularCantidadUnidadesReorden(p).ToString("F3", new System.Globalization.CultureInfo("es-AR")) + " unidades";
+                                    Descripcion += "Cantidad que debe ordenarse: " + cantfija.CalcularCantidadUnidadesReorden(p).ToString("F3", new System.Globalization.CultureInfo("es-AR")) + " unidades";
 
-                            Descripcion += SALTO + SALTO;
 
-                            Descripcion += "Costo anual Total del Producto: $" + cantfija.CalcularCostoAnualTotal(p).ToString("F3", new System.Globalization.CultureInfo("es-AR"));
 
-                            InfoProducto inf = new InfoProducto(Descripcion);
+                                    Descripcion += SALTO + SALTO;
 
-                            inf.ShowDialog();
+                                    Descripcion += "Costo anual Total del Producto: $" + cantfija.CalcularCostoAnualTotal(p).ToString("F3", new System.Globalization.CultureInfo("es-AR"));
+                                }
 
+                                else
+                                    Descripcion += "Su stock es mayor que las unidades estimadas a vender";
+                                InfoProducto inf = new InfoProducto(Descripcion);
+
+                                inf.ShowDialog();
+
+                            }
+                            else if (z.Descripcion == "B")
+                            {
+                                ModeloCantFija cantfija = new ModeloCantFija();
+
+                                string Descripcion = string.Empty;
+
+                                Descripcion += "\t\t Direccion de Abastecimiento de Viveres - MiniMercado";
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "_________________________________________________________";
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "\t\t\t\t Informacion del Producto";
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "_________________________________________________________";
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "Datos del Producto";
+
+                                Descripcion += SALTO + SALTO;
+
+                                Descripcion += "Codigo: " + p.CodigoBarra;
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "Descripcion: " + p.Descripcion;
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "Stock: " + p.Stock + " unidades";
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "Precio: $" + p.Precio;
+
+                                Descripcion += SALTO + SALTO;
+
+                                Descripcion += "Informacion del Pedido:";
+
+                                Descripcion += SALTO + SALTO;
+
+                                try
+                                {
+                                    Descripcion += "Cantidad que debe ordenarse: " + cantfija.CalcularCantidadUnidadesReorden(p).ToString("F3", new System.Globalization.CultureInfo("es-AR")) + " unidades";
+                                }
+
+                                catch (Exception ex)
+                                {
+                                    MessageBox.Show(ex.Message);
+                                }
+
+                                InfoProducto inf = new InfoProducto(Descripcion);
+
+                                inf.ShowDialog();
+
+                            }
+                            else
+                            {
+                                ModeloPeriodoTiempoFijo tiempofijo = new ModeloPeriodoTiempoFijo();
+
+                                string Descripcion = string.Empty;
+
+                                Descripcion += "\t\t Direccion de Abastecimiento de Viveres-MINIMERCADO";
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "_________________________________________________________";
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "\t\t\t\t Informacion del Producto";
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "_________________________________________________________";
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "Datos del Producto";
+
+                                Descripcion += SALTO + SALTO;
+
+                                Descripcion += "Codigo: " + p.CodigoBarra;
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "Descripcion: " + p.Descripcion;
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "Stock: " + p.Stock + " unidades";
+
+                                Descripcion += SALTO;
+
+                                Descripcion += "Precio: $" + p.Precio;
+
+                                Descripcion += SALTO + SALTO;
+
+                                Descripcion += "Informacion del Pedido:";
+
+                                Descripcion += SALTO + SALTO;
+
+                                SaldoInventario s = controller.BuscarUltimaSaldoInventario(p);
+
+                                try
+                                {
+                                    Descripcion += "Cantidad que debe ordenarse: " + tiempofijo.CalcularCantidadUnidadesReorden(p, s.ValorInventario).ToString("F3", new System.Globalization.CultureInfo("es-AR")) + " unidades";
+                                }
+                                catch (Exception ex)
+                                {
+                                    MessageBox.Show(ex.Message);
+                                }
+
+                                InfoProducto inf = new InfoProducto(Descripcion);
+
+                                inf.ShowDialog();
+                            }
                         }
-                        else if (z.Descripcion == "B")
-                        {
-                            ModeloCantFija cantfija = new ModeloCantFija();
 
-                            string Descripcion = string.Empty;
-
-                            Descripcion += "\t\t Direccion de Abastecimiento de Viveres-Armada Argentina";
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "_________________________________________________________";
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "\t\t\t\t Informacion del Producto";
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "_________________________________________________________";
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "Datos del Producto";
-
-                            Descripcion += SALTO + SALTO;
-
-                            Descripcion += "Codigo: " + p.CodigoBarra;
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "Descripcion: " + p.Descripcion;
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "Stock: " + p.Stock + " unidades";
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "Precio: $" + p.Precio;
-
-                            Descripcion += SALTO + SALTO;
-
-                            Descripcion += "Informacion del Pedido:";
-
-                            Descripcion += SALTO + SALTO;
-
-                            Descripcion += "Cantidad que debe ordenarse: " + cantfija.CalcularCantidadUnidadesReorden(p).ToString("F3", new System.Globalization.CultureInfo("es-AR")) + " unidades";
-
-                            InfoProducto inf = new InfoProducto(Descripcion);
-
-                            inf.ShowDialog();
-
-                        }
                         else
                         {
-                            ModeloPeriodoTiempoFijo tiempofijo = new ModeloPeriodoTiempoFijo();
-
-                            string Descripcion = string.Empty;
-
-                            Descripcion += "\t\t Direccion de Abastecimiento de Viveres-Armada Argentina";
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "_________________________________________________________";
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "\t\t\t\t Informacion del Producto";
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "_________________________________________________________";
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "Datos del Producto";
-
-                            Descripcion += SALTO + SALTO;
-
-                            Descripcion += "Codigo: " + p.CodigoBarra;
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "Descripcion: " + p.Descripcion;
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "Stock: " + p.Stock + " unidades";
-
-                            Descripcion += SALTO;
-
-                            Descripcion += "Precio: $" + p.Precio;
-
-                            Descripcion += SALTO + SALTO;
-
-                            Descripcion += "Informacion del Pedido:";
-
-                            Descripcion += SALTO + SALTO;
-
-                            SaldoInventario s = controller.BuscarUltimaSaldoInventario(p);
-
-                            Descripcion += "Cantidad que debe ordenarse: " + tiempofijo.CalcularCantidadUnidadesReorden(p, s.ValorInventario).ToString("F3", new System.Globalization.CultureInfo("es-AR")) + " unidades";
-
-                            InfoProducto inf = new InfoProducto(Descripcion);
-
-                            inf.ShowDialog();
+                            MessageBox.Show("El producto debe tener una zona especificada");
                         }
                     }
+
+                    else
+                    {
+                        MessageBox.Show("Debe cargar las demandas y los saldo de los articulos");
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("Debe cargar las demandas y los saldo de los articulos");
-                }
+
+                
             }
             catch (Exception ex)
             {

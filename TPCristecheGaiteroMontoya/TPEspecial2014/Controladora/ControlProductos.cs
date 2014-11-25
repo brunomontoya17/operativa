@@ -278,8 +278,13 @@ namespace Controladora
                 DemandaProductoMensual d = BuscarUltimaDemanda(p);
                 //y esta
                 SaldoInventario s = BuscarUltimaSaldoInventario(p);
+                int DemandaReal = 0;
                 //terminan siendo null, y por el eso el programa falla
-                int DemandaReal = (d.ValorDemanda - s.ValorInventario) * 12;
+                if (s.ValorInventario <= d.ValorDemanda)
+                {
+                    DemandaReal = (d.ValorDemanda - s.ValorInventario) * 12;
+                }
+                
 
                 TotalValorizaciones += DemandaReal * p.Precio;
             }
@@ -300,8 +305,12 @@ namespace Controladora
                 if (d != null && s != null)
                 {
                     Valorizacion v = BuscarUltimaValorizacion(p);
-
-                    decimal DemandaReal = (d.ValorDemanda - s.ValorInventario) * 12;
+                    decimal DemandaReal = 0;
+                    
+                    
+                        DemandaReal = (d.ValorDemanda - s.ValorInventario) * 12;
+                    
+                    
 
                     decimal diaria = (DemandaReal / 365m);
 

@@ -22,3 +22,8 @@ C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroM
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Modelo\obj\Debug\Modelo.dll
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Modelo\bin\Debug\Modelo.dll
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Modelo\obj\Debug\Modelo.dll
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Modelo\obj\Debug\Modelo.pdb

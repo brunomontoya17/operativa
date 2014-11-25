@@ -36,3 +36,11 @@ C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroM
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.dll
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.pdb
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\bin\Debug\DAO.dll.config
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\bin\Debug\DAO.dll
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\bin\Debug\DAO.pdb
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\bin\Debug\Modelo.dll
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\bin\Debug\Modelo.pdb
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.dll
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.pdb

@@ -48,7 +48,14 @@ namespace Modelo
 
         public decimal CalcularPuntoReorden(decimal demandadiaria)
         {
-            decimal diaria =demandadiaria * L;
+            decimal diaria = 0;
+            try
+            {
+                diaria = demandadiaria * L;
+            }
+            catch(Exception ex){
+                throw ex;
+            }
 
             return diaria;
         }

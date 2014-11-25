@@ -68,7 +68,8 @@ namespace Modelo
         public decimal CalcularCantidadUnidadesReorden(Producto p,int desviacion)
         {
             decimal te_mas_ele=DiasTranscurridosentreRevisiones+L;
-            decimal raiz=Convert.ToDecimal(System.Math.Sqrt(Convert.ToDouble(te_mas_ele)));
+            double cantidadpedida = Convert.ToDouble(te_mas_ele);
+            decimal raiz=Convert.ToDecimal(System.Math.Sqrt(cantidadpedida));
 
             decimal zimba=raiz*desviacion;
 

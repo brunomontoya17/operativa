@@ -55,7 +55,7 @@ namespace DAO
 
             foreach (DataRow dr in DT.Rows)
             {
-                if (Convert.ToString(dr["nombre"]) == user && Convert.ToString(dr["pass"]) == pass)
+                if (Convert.ToString(dr["nombre"]).Equals(user) && Convert.ToString(dr["pass"]).Equals(pass))
                 {
                     Usuario u = new Usuario();
 

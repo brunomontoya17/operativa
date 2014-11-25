@@ -43,3 +43,12 @@ C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroM
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\obj\Debug\Controladora.csprojResolveAssemblyReference.cache
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\obj\Debug\Controladora.dll
 C:\Users\usuario\Desktop\Bruno\Facultad\operativa2\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\bin\Debug\Controladora.dll
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\bin\Debug\DAO.dll
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\bin\Debug\Modelo.dll
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\bin\Debug\DAO.pdb
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\bin\Debug\Modelo.pdb
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\obj\Debug\Controladora.csprojResolveAssemblyReference.cache
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\obj\Debug\Controladora.dll
+C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\Controladora\obj\Debug\Controladora.pdb
