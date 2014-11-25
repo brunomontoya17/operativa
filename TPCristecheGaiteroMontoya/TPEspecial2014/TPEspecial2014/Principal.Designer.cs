@@ -48,7 +48,7 @@
             // 
             // menu
             // 
-            this.menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.menu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.administraccionDToolStripMenuItem,
@@ -76,8 +76,8 @@
             this.cargarProductosToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.cargarProductosToolStripMenuItem.Image = global::TPEspecial2013.Properties.Resources.Load;
             this.cargarProductosToolStripMenuItem.Name = "cargarProductosToolStripMenuItem";
-            this.cargarProductosToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
-            this.cargarProductosToolStripMenuItem.Text = "Cargar Productos";
+            this.cargarProductosToolStripMenuItem.Size = new System.Drawing.Size(211, 26);
+            this.cargarProductosToolStripMenuItem.Text = "Ingresar Productos";
             this.cargarProductosToolStripMenuItem.Click += new System.EventHandler(this.cargarProductosToolStripMenuItem_Click);
             // 
             // administraccionToolStripMenuItem
@@ -86,8 +86,8 @@
             this.cargarPlanillaDeDemandaDelBuqueToolStripMenuItem});
             this.administraccionToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.administraccionToolStripMenuItem.Name = "administraccionToolStripMenuItem";
-            this.administraccionToolStripMenuItem.Size = new System.Drawing.Size(134, 25);
-            this.administraccionToolStripMenuItem.Text = "Administraccion";
+            this.administraccionToolStripMenuItem.Size = new System.Drawing.Size(127, 25);
+            this.administraccionToolStripMenuItem.Text = "Administracion";
             // 
             // cargarPlanillaDeDemandaDelBuqueToolStripMenuItem
             // 
@@ -149,7 +149,7 @@
             // 
             // Status
             // 
-            this.Status.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Status.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.Status.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Status.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
@@ -166,7 +166,7 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.ActiveLinkColor = System.Drawing.Color.Red;
-            this.toolStripStatusLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.toolStripStatusLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(60, 17);
@@ -174,6 +174,7 @@
             // 
             // lblUsuario
             // 
+            this.lblUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(58, 17);
@@ -181,10 +182,10 @@
             // 
             // toolStripStatusLabel2
             // 
-            this.toolStripStatusLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.toolStripStatusLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.toolStripStatusLabel2.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(427, 17);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(458, 17);
             this.toolStripStatusLabel2.Spring = true;
             this.toolStripStatusLabel2.Text = "Inventario Del Minimercado";
             // 

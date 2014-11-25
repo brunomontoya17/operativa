@@ -9,8 +9,10 @@ namespace DAO
 {
     public class Conexion
     {
-        //SqlConnection cn = new SqlConnection("Data Source= Yanina-PC;Initial Catalog=invop;Integrated Security=True");
-        static String conYani = "Data Source=YANINA-PC\\SQLEXPRESS;Initial Catalog=invop;Integrated Security=True;";
+
+        //SqlConnection cn = new SqlConnection("Data Source=USUARIO-PC;Initial Catalog=invop;Integrated Security=True");
+        //static String conYani = "Data Source=YANINA-PC\\SQLEXPRESS;Initial Catalog=invop;Integrated Security=True;";
+        static String conYani = "Data Source=USUARIO-PC;Initial Catalog=invop;Integrated Security=True";
         SqlConnection cn = new SqlConnection(conYani);
         
 

@@ -60,7 +60,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(682, 32);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(156, 24);
+            this.comboBox1.Size = new System.Drawing.Size(140, 24);
             this.comboBox1.TabIndex = 12;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -85,7 +85,7 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnBuscar.BackColor = System.Drawing.Color.CadetBlue;
             this.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -100,12 +100,12 @@
             // 
             // btnCargarSaldos
             // 
-            this.btnCargarSaldos.BackColor = System.Drawing.Color.Crimson;
+            this.btnCargarSaldos.BackColor = System.Drawing.Color.DarkCyan;
             this.btnCargarSaldos.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnCargarSaldos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCargarSaldos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargarSaldos.ForeColor = System.Drawing.Color.White;
-            this.btnCargarSaldos.Location = new System.Drawing.Point(708, 552);
+            this.btnCargarSaldos.Location = new System.Drawing.Point(704, 539);
             this.btnCargarSaldos.Name = "btnCargarSaldos";
             this.btnCargarSaldos.Size = new System.Drawing.Size(169, 48);
             this.btnCargarSaldos.TabIndex = 15;
@@ -129,7 +129,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(360, 564);
+            this.label4.Location = new System.Drawing.Point(155, 565);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(155, 20);
             this.label4.TabIndex = 23;
@@ -138,7 +138,7 @@
             // dtpHasta
             // 
             this.dtpHasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpHasta.Location = new System.Drawing.Point(543, 564);
+            this.dtpHasta.Location = new System.Drawing.Point(320, 565);
             this.dtpHasta.Name = "dtpHasta";
             this.dtpHasta.Size = new System.Drawing.Size(119, 20);
             this.dtpHasta.TabIndex = 22;
@@ -148,7 +148,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(12, 564);
+            this.label3.Location = new System.Drawing.Point(155, 536);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(159, 20);
             this.label3.TabIndex = 21;
@@ -157,7 +157,7 @@
             // dtpDesde
             // 
             this.dtpDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDesde.Location = new System.Drawing.Point(195, 564);
+            this.dtpDesde.Location = new System.Drawing.Point(320, 539);
             this.dtpDesde.Name = "dtpDesde";
             this.dtpDesde.Size = new System.Drawing.Size(119, 20);
             this.dtpDesde.TabIndex = 20;
@@ -166,7 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(889, 617);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dtpHasta);

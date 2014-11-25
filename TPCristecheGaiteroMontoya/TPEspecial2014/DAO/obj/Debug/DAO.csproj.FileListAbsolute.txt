@@ -44,3 +44,11 @@ C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2
 C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.dll
 C:\Users\Yanina\Documents\GitHub\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.pdb
+C:\Users\usuario\Desktop\Bruno\FiberCrunch\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\bin\Debug\DAO.dll.config
+C:\Users\usuario\Desktop\Bruno\FiberCrunch\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\bin\Debug\DAO.dll
+C:\Users\usuario\Desktop\Bruno\FiberCrunch\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\bin\Debug\DAO.pdb
+C:\Users\usuario\Desktop\Bruno\FiberCrunch\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\bin\Debug\Modelo.dll
+C:\Users\usuario\Desktop\Bruno\FiberCrunch\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\bin\Debug\Modelo.pdb
+C:\Users\usuario\Desktop\Bruno\FiberCrunch\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Bruno\FiberCrunch\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.dll
+C:\Users\usuario\Desktop\Bruno\FiberCrunch\operativa\TPCristecheGaiteroMontoya\TPEspecial2014\DAO\obj\Debug\DAO.pdb

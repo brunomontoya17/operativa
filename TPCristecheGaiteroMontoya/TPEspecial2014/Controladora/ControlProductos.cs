@@ -284,7 +284,7 @@ namespace Controladora
                 {
                     DemandaReal = (d.ValorDemanda - s.ValorInventario) * 12;
                 }
-                
+
 
                 TotalValorizaciones += DemandaReal * p.Precio;
             }
@@ -306,11 +306,12 @@ namespace Controladora
                 {
                     Valorizacion v = BuscarUltimaValorizacion(p);
                     decimal DemandaReal = 0;
-                    
-                    
+
+                    if (d.ValorDemanda >= s.ValorInventario)
+                    {
                         DemandaReal = (d.ValorDemanda - s.ValorInventario) * 12;
-                    
-                    
+                    }
+
 
                     decimal diaria = (DemandaReal / 365m);
 

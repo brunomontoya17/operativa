@@ -59,14 +59,14 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnBuscar.BackColor = System.Drawing.Color.CadetBlue;
             this.btnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.Location = new System.Drawing.Point(258, 31);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(124, 25);
+            this.btnBuscar.Size = new System.Drawing.Size(138, 25);
             this.btnBuscar.TabIndex = 3;
             this.btnBuscar.Text = "Buscar Archivo";
             this.btnBuscar.UseVisualStyleBackColor = false;
@@ -77,7 +77,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(672, 12);
+            this.label2.Location = new System.Drawing.Point(631, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 17);
             this.label2.TabIndex = 8;
@@ -88,9 +88,9 @@
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(675, 32);
+            this.comboBox1.Location = new System.Drawing.Point(634, 30);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(156, 24);
+            this.comboBox1.Size = new System.Drawing.Size(164, 24);
             this.comboBox1.TabIndex = 7;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -107,14 +107,14 @@
             // 
             // btnProcesar
             // 
-            this.btnProcesar.BackColor = System.Drawing.Color.Crimson;
+            this.btnProcesar.BackColor = System.Drawing.Color.DarkCyan;
             this.btnProcesar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnProcesar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProcesar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProcesar.ForeColor = System.Drawing.Color.White;
-            this.btnProcesar.Location = new System.Drawing.Point(318, 547);
+            this.btnProcesar.Location = new System.Drawing.Point(695, 540);
             this.btnProcesar.Name = "btnProcesar";
-            this.btnProcesar.Size = new System.Drawing.Size(169, 48);
+            this.btnProcesar.Size = new System.Drawing.Size(169, 55);
             this.btnProcesar.TabIndex = 10;
             this.btnProcesar.Text = "Cargar Productos";
             this.btnProcesar.UseVisualStyleBackColor = false;
@@ -124,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(876, 607);
             this.Controls.Add(this.btnProcesar);
             this.Controls.Add(this.dataGridView1);

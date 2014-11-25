@@ -47,7 +47,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(802, 7);
+            this.label2.Location = new System.Drawing.Point(686, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 17);
             this.label2.TabIndex = 13;
@@ -58,9 +58,9 @@
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(805, 27);
+            this.comboBox1.Location = new System.Drawing.Point(689, 29);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(156, 24);
+            this.comboBox1.Size = new System.Drawing.Size(152, 24);
             this.comboBox1.TabIndex = 12;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -100,12 +100,12 @@
             // 
             // btnCargarDemandas
             // 
-            this.btnCargarDemandas.BackColor = System.Drawing.Color.Crimson;
+            this.btnCargarDemandas.BackColor = System.Drawing.Color.DarkCyan;
             this.btnCargarDemandas.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnCargarDemandas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCargarDemandas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargarDemandas.ForeColor = System.Drawing.Color.White;
-            this.btnCargarDemandas.Location = new System.Drawing.Point(775, 554);
+            this.btnCargarDemandas.Location = new System.Drawing.Point(819, 549);
             this.btnCargarDemandas.Name = "btnCargarDemandas";
             this.btnCargarDemandas.Size = new System.Drawing.Size(169, 48);
             this.btnCargarDemandas.TabIndex = 15;
@@ -127,7 +127,7 @@
             // dtpDesde
             // 
             this.dtpDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDesde.Location = new System.Drawing.Point(194, 556);
+            this.dtpDesde.Location = new System.Drawing.Point(334, 556);
             this.dtpDesde.Name = "dtpDesde";
             this.dtpDesde.Size = new System.Drawing.Size(119, 20);
             this.dtpDesde.TabIndex = 16;
@@ -137,7 +137,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(11, 556);
+            this.label3.Location = new System.Drawing.Point(154, 556);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(159, 20);
             this.label3.TabIndex = 17;
@@ -148,7 +148,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(386, 556);
+            this.label4.Location = new System.Drawing.Point(154, 585);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(155, 20);
             this.label4.TabIndex = 19;
@@ -157,7 +157,7 @@
             // dtpHasta
             // 
             this.dtpHasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpHasta.Location = new System.Drawing.Point(569, 556);
+            this.dtpHasta.Location = new System.Drawing.Point(334, 585);
             this.dtpHasta.Name = "dtpHasta";
             this.dtpHasta.Size = new System.Drawing.Size(119, 20);
             this.dtpHasta.TabIndex = 18;
@@ -166,7 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(1000, 614);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dtpHasta);

@@ -46,7 +46,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(333, 9);
+            this.label1.Location = new System.Drawing.Point(188, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(235, 25);
             this.label1.TabIndex = 0;
@@ -112,14 +112,14 @@
             // 
             // btnVer
             // 
-            this.btnVer.BackColor = System.Drawing.Color.Crimson;
+            this.btnVer.BackColor = System.Drawing.Color.DarkCyan;
             this.btnVer.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnVer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVer.ForeColor = System.Drawing.Color.White;
-            this.btnVer.Location = new System.Drawing.Point(361, 422);
+            this.btnVer.Location = new System.Drawing.Point(690, 420);
             this.btnVer.Name = "btnVer";
-            this.btnVer.Size = new System.Drawing.Size(169, 48);
+            this.btnVer.Size = new System.Drawing.Size(192, 63);
             this.btnVer.TabIndex = 11;
             this.btnVer.Text = "Ver Informacion";
             this.btnVer.UseVisualStyleBackColor = false;
@@ -129,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(908, 495);
             this.Controls.Add(this.btnVer);
             this.Controls.Add(this.dataGridView1);

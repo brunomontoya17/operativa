@@ -133,7 +133,7 @@ namespace TPEspecial2013
 
                                 string Descripcion = string.Empty;
 
-                                Descripcion += "\t\t Direccion de Abastecimiento de Viveres - MiniMercado";
+                                Descripcion += "\t\t Sistema - MiniMercado";
 
                                 Descripcion += SALTO;
 
@@ -194,7 +194,7 @@ namespace TPEspecial2013
 
                                 string Descripcion = string.Empty;
 
-                                Descripcion += "\t\t Direccion de Abastecimiento de Viveres-MINIMERCADO";
+                                Descripcion += "\t\t Sistema - MINIMERCADO";
 
                                 Descripcion += SALTO;
 
